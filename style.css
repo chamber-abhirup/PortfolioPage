@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap");
+
+/* css reset using *  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: absolute;
+  background-color: rgb(172, 170, 170);
+  /*width: 15vw;
+  */font-family: "Fira-Sans", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+  -webkit-transition: transform 0.3s ease-in;
+  -moz-transition: transform 0.3s ease-in;
+  -ms-transition: transform 0.3s ease-in;
+  -o-transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+  padding: 50px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 35px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background-color: yellow; */
+  margin-left: 30px;
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  /* background-color: rgb(206, 11, 209); */
+  height: 68vh;
+  width: 85vw;
+  margin: 145px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Sans Pro", monospace;
+}
+
+.hello {
+  font-size: 2.5em;
+  /* color: white; */
+}
+.name {
+  font-size: 4.5em;
+  font-weight: 900;
+  font-family: "Fira Sans", sans-serif;
+  /* color: white; */
+}
+.about {
+  font-size: 2.5em;
+  /* font-weight: 100; */
+  /* color: white; */
+}
+.moreabout {
+  margin-top: 2em;
+  font-family: "Fira-Sans", sans-serif;
+  font-size: 20px;
+}
+.buttons {
+  margin-top: 2.2em;
+}
+
+.btn{
+  /*background-color: white;
+  *//*background-color: white;
+  */padding: 5px 5px;
+  border-radius: 22px;
+  margin: 3px 3px;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(69, 143, 227);
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+}
+
+.btn-sm{
+  font-family: 2px;
+  font-weight: 900;
+  /* padding: 10px 10px; */
+  margin: 12px 0;
+}
+.buttons button:hover {
+  background-color: white;
+  color: rgb(69, 143, 227);
+}
+
+.devPic img {
+  height: 60vh;
+}
+
+.contactform {
+  padding: 0 40px;
+  /* padding-top: 150px; */
+  font-family: "Fira Sans", sans-serif;
+  margin: 0 90px;
+}
+
+.contactform h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+  /* padding: 15px 0; */
+  /* text-align: center; */
+  /* color: white; */
+}
+
+.contactform form div{
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 26px 0;
+  font-size: 20px;
+  font-weight: 600;
+  flex-direction: column;
+}
+
+.contactform form div input {
+  /* width: 24vw; */
+  border-radius: 300px;
+  margin: 6px 0 0;
+  padding: 5px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  -ms-border-radius: 300px;
+  -o-border-radius: 300px;
+}
+
+#emailHelp{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 5px;
+  font-family: "Fira Sans", sans-serif;
+
+  color: midnightblue;
+}
+
+#form-check{
+  flex-direction:row ;
+}
+#form-check input{
+  width: 24px;
+  /* height: 2px; */
+  margin: 3px 0 0;
+  font-family: "Fira Sans", sans-serif;
+}
+
+
+.blogItem{
+margin: 20px;
+font-family: "Fira Sans", sans-serif;
+}
+.blogContainer{
+    margin: 90px 90px;
+
+}
+
+.blogContainer h1{
+font-family: "Fira Sans", sans-serif;
+margin: 23px 0;
+}
+
+h1{
+font-family: "Source Sans Pro", monospace;
+margin: 23px 0;
+}
+
+p{
+  font-family: "Source Sans Pro", monospace;
+
+}
+.intro{
+    margin: 90px 90px;
+
+}
+.intro h2{
+  font-family: "Source Sans Pro", monospace;
+  margin:16px;
+}
+
+.intro p{
+  font-family: "Source Sans Pro", monospace;
+  margin:13px;
+}
+.skillContainer{
+  padding: 12px;
+}
+.skillItem{
+  /* display: flex; */
+  align-items: center;
+}
+
+.skill{
+  width: 265px;
+  height: 10px;
+  background-color: rgb(69, 143, 227);
+  border: 2px solid black;
+}
+
+.hundred{
+ width: 265px;
+  height: 10px;
+  background-color: rgb(69, 143, 227);
+}
+
+.fifty{
+  width: 125px;
+}
+
+.t5{
+  width: 75px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px)  ;
+    position: absolute;
+}
+
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.cross{
+  margin-left: 195px;
+  margin-top: 5px;
+}
+
+@media(max-width: 1615px){
+  *{
+    /* background-color: blue; */
+  }
+  .buttons{
+    font-size: 2px;
+  }
+  .devPic{
+    display: none;
+  }
+  .devInfo{
+    font-size: 10px;
+  }
+  .intro,.contactform,.blogContainer{
+    margin:50px 9px;
+  }
+  /* .sidebar{
+    transform: translate(-443px, 0px)  ;
+    position: absolute;
+} */
+}
