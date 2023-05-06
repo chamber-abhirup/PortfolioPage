@@ -258,7 +258,7 @@ p{
   margin-top: 5px;
 }
 
-@media(max-width: 1615px){
+@media(max-width: 1500px){
   *{
     /* background-color: blue; */
   }
