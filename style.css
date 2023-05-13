@@ -123,7 +123,7 @@
   padding: 0 40px;
   /* padding-top: 150px; */
   font-family: "Fira Sans", sans-serif;
-  margin: 0 90px;
+  margin: 50 90px;
 }
 
 .contactform h1 {
@@ -276,7 +276,7 @@ p{
     font-size: 10px;
   }
   .intro,.contactform,.blogContainer{
-    margin:50px 9px;
+    margin:60px 10px;
   }
   /* .sidebar{
     transform: translate(-443px, 0px)  ;
