@@ -12,7 +12,7 @@
   background-color: rgb(172, 170, 170);
   /*width: 15vw;
   */font-family: "Fira-Sans", sans-serif;
-  height: 125vh;
+  height: 120vh;
   transition: transform 0.3s ease-in;
   -webkit-transition: transform 0.3s ease-in;
   -moz-transition: transform 0.3s ease-in;
@@ -123,7 +123,7 @@
   padding: 0 40px;
   /* padding-top: 150px; */
   font-family: "Fira Sans", sans-serif;
-  margin: 50 90px;
+  margin: 75px 110px;
 }
 
 .contactform h1 {
@@ -258,7 +258,7 @@ p{
 }
 
 .cross{
-  margin-left: 195px;
+  margin-left: 200px;
   margin-top: 5px;
 }
 
