@@ -36,7 +36,7 @@
 }
 .main {
   /* background-color: yellow; */
-  margin-left: 30px;
+  margin-left: 100px;
   width: 90vw;
 }
 .container {
@@ -80,6 +80,7 @@
   font-family: "Fira-Sans", sans-serif;
   font-size: 20px;
 }
+
 .buttons {
   margin-top: 2.2em;
 }
@@ -113,7 +114,9 @@
 }
 
 .devPic img {
-  height: 60vh;
+  height: 65vh;
+  /* width: 40vw; */
+  margin: 0 10px;
 }
 
 .contactform {
@@ -198,6 +201,7 @@ p{
 
 }
 .intro{
+  font-family: "Source Sans Pro",monospace;
     margin: 90px 90px;
 
 }
@@ -219,8 +223,8 @@ p{
 }
 
 .skill{
-  width: 265px;
-  height: 10px;
+  width: 365px;
+  height: 12px;
   background-color: rgb(69, 143, 227);
   border: 2px solid black;
 }
